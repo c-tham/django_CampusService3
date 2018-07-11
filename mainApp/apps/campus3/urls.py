@@ -4,7 +4,7 @@ from . import views
 #------------------------------------------------------------------------------
 # Codes start here ... Chia Tham
 urlpatterns = [
-    # url(r'^$', views.blank),
+    url(r'^$', views.index),
     url(r'^campus3$', views.index),
     url(r'^campus3/$', views.index),
     url(r'^campus3/regUser$', views.regUser),
